@@ -1,0 +1,18 @@
+# Build artifacts
+*.o
+*.elf
+*.nro
+*.nacp
+build/
+
+# VS Code settings (personal, machine-specific)
+.vscode/settings.json
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+
+# Optional: backup files
+*~
+*.tmp
+*.swp
