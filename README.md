@@ -42,11 +42,8 @@ HELLO_WORLD
 ## Build Instructions
 
 1. Open the project root in **Visual Studio Code**.
-2. Open a terminal in VS Code and run:
-
-```bash
-make
-```
+2. Press CTRL + SHIFT + B
+3. Select: **Build Switch Homebrew**
 
 This will generate the following files in the project root:
 
