@@ -3,17 +3,17 @@
 
 int main(int argc, char* argv[])
 {
-    // Konsole initialisieren (libnx C-API, kann aber problemlos in C++ genutzt werden)
+    // Initialize console (libnx C-API, but can be used in C++ without any problems)
     consoleInit(nullptr);
 
-    // Controller-Konfiguration
+    // Controller-Configuration
     padConfigureInput(1, HidNpadStyleSet_NpadStandard);
 
-    // Standard-Gamepad initialisieren
+    // init Default-Gamepad
     PadState pad;
     padInitializeDefault(&pad);
 
-    // Textausgabe per iostream
+    // Text output via iostream
     std::cout << "\x1b[16;20HHello World from C++!" << std::endl;
 
     // Main Loop
